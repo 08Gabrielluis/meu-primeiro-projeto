@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.5;
+}
+
+.img-logo {
+    width: 595.178px;
+    height: 500.005px;
+    flex-shrink: 0;
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    height: 164px;
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    margin-top: 342px;
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 57px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 650px) {
+    .link-header {
+        display: none;
+    }
+
+    main {
+        display: block;
+    }
+
+    .img-logo {
+        width: 312px;
+        height: 288px;
+        margin: 0;
+        position: relative;
+        top: 450px;
+        left: 30px;
+
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0;
+
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+
+    section {
+        width: 304px;
+        height: 307px;
+        margin: 0;
+        position: relative;
+        bottom: 200px;
+        left: 30px;
+
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        position: relative;
+        left: 55%;
+        bottom: 20px;
+        font-size: 12px;
+        line-height: normal;
+
+    }
+
+    .link-section {
+        position: relative;
+        left: 90px;
+    }
+
+
+
+}
